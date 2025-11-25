@@ -81,7 +81,7 @@ const ServiceModal = ({ service, onClose, isClosing }) => {
                     
                     {/* Column 1: Icon & Summary */}
                     <div className="lg:col-span-1 p-8 md:p-10 border-r border-gray-100">
-                        <div className="mb-6 pb-6 border-b border-gray-200">
+                        <div className="mb-6 pb-6  border-gray-200">
                             <img
                                 src={modalData.iconUrl}
                                 alt={modalData.title}
@@ -113,9 +113,9 @@ const ServiceModal = ({ service, onClose, isClosing }) => {
 
                 {/* Footer/CTA */}
                 <div className="p-6 md:p-8 border-t border-gray-200 text-center">
-                    <button className="w-full md:w-auto bg-cyan-600 text-white font-extrabold text-lg py-3 px-10 rounded-lg shadow-lg shadow-cyan-500/40 hover:bg-cyan-700 transition duration-300 transform hover:scale-[1.01] focus:outline-none focus:ring-4 focus:ring-cyan-300">
+                    {/* <button className="w-full md:w-auto bg-cyan-600 text-white font-extrabold text-lg py-3 px-10 rounded-lg shadow-lg shadow-cyan-500/40 hover:bg-cyan-700 transition duration-300 transform hover:scale-[1.01] focus:outline-none focus:ring-4 focus:ring-cyan-300">
                         Activate Digital Transformation
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>
